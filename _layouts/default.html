@@ -16,18 +16,20 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         
-        <a href="{{ "/" | relative_url }}">Home</a>
-        <a href="{{ "/about" | relative_url }}">About Us</a>
-        <a href="{{ "/info" | relative_url }}">Information</a>
-        <a href="{{ "/rules" | relative_url }}">Rules</a>
-
-        <section id="downloads">
-          {% if site.show_downloads %}
+        <nav>
+          <a href="{{ "/" | relative_url }}" class="btn">Home</a>
+          <a href="{{ "/about" | relative_url }}" class="btn">About Us</a>
+          <a href="{{ "/info" | relative_url }}" class="btn">Information</a>
+          <a href="{{ "/rules" | relative_url }}" class="btn">Rules</a>
+          <span></span>
+          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </nav>
+        {% if site.show_downloads %}
+          <section id="downloads">
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+          </section>
+        {% endif %}
       </div>
     </header>
 
@@ -38,7 +40,9 @@
     </div>
     
     <footer>
-      © 2017 by ByteCommander
+      <div class="container">
+        <span>© 2017 by ByteCommander</span>
+      </div>
     </footer>
 
     {% if site.google_analytics %}
