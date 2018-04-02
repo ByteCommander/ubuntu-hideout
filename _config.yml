@@ -1,8 +1,9 @@
 theme: jekyll-theme-hacker
 #title: Ubuntu Hideout
 #email:
-#description: 
+#description:
 #show_downloads: true
 
 #exclude:
 #timezone: Europe/London
+exclude: ['_site/', 'Gemfile', 'Gemfile.lock']
