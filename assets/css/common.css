@@ -24,3 +24,50 @@ footer {
   border-top: 1px dashed #b5e853;
 }
 
+
+.administrator {
+color: #ad1457;
+font-weight: bold;
+}
+
+.moderator {
+color: #d82932;
+font-weight: bold;
+}
+
+.askubuntu{
+font-weight: bold;
+color: #b9bbbe;
+}
+
+.trusted {
+color: #43b581;
+font-weight: bold;
+}
+
+.active {
+color: #faa61a;
+font-weight: bold;
+}
+
+.everyone {
+color: #b9bbbe;
+font-weight: bold;
+}
+
+.bot {
+color: #206694;
+font-weight: bold;
+}
+
+.trustedbot {
+color: #3498db;
+font-weight: bold;
+}
+
+
+.channel {
+    color: #7289da;
+    font-weight: bold;
+}
+
