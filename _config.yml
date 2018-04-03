@@ -6,4 +6,4 @@ theme: jekyll-theme-hacker
 
 #exclude:
 #timezone: Europe/London
-exclude: ['_site/', 'Gemfile', 'Gemfile.lock']
+exclude: ['_site/', 'Gemfile', 'Gemfile.lock', 'build.sh']
