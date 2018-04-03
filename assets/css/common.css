@@ -71,3 +71,22 @@ font-weight: bold;
     font-weight: bold;
 }
 
+
+.codeblock {
+  color: #b5e853;
+  background-color: #000;
+  border: 1px solid #999;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+ code {
+  color: #b5e853;
+  background-color: #000;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+

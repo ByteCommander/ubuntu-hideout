@@ -18,6 +18,9 @@
 <li><span class="channel"> #ubuntu-support</span> is our second general chat room. As the name already suggests, we'd like to keep it focused on Ubuntu and related topics.
 </li>
 
+<li><span class="channel"> #coding-cave</span> is for extended discussion of programming such as Python, C++, SQL or whatever language you like.
+</li>
+
 <li><span class="channel"> #bot-playground</span> is a "fun channel" where you can play with our resident chat bots and try their features without upsetting anyone. Strong usage of bot commands in other rooms than that one is discouraged though.
 </li>
 
@@ -72,11 +75,17 @@
 
 ## Our bots
 
-- <span class="trustedbot">@Mee6#4876's</span> main task is to track your activity by giving you a slightly random amount of experience points once in each minute you chat here. After defined steps of experience, you "level up" and get a private message by it telling you that. Some levels unlock a role that gets assigned to your user automatically by the bot (for details see the section about roles and permissions). Other than that, the levels are just a nice indicator of your activity.
-  Commands for <span class="trustedbot">@Mee6#4876</span> have `!` as prefix. Post `!help` (in the #bot-playground please) to get a list.
+<ul>
 
-- <span class="trustedbot">@Tatsumaki#8792</span> does many things and is to be configured yet.
-  Commands for <span class="trustedbot">@Tatsumaki#8792</span> have `?` as prefix. Post `?help` (in the <span class="channel">#bot-playground</span> please) to get a list.
-  
+<li> <span class="trustedbot">@Mee6#4876's</span> main task is to track your activity by giving you a slightly random amount of experience points once in each minute you chat here. After defined steps of experience, you "level up" and get a private message by it telling you that. Some levels unlock a role that gets assigned to your user automatically by the bot (for details see the section about roles and permissions). Other than that, the levels are just a nice indicator of your activity.
+  Commands for <span class="trustedbot">@Mee6#4876</span> have `!` as prefix. Post <span class="codeblock">!help</span> (in the <span class="channel">#bot-playground</span> please) to get a list.
+</li>
+
+<li>
+<span class="trustedbot">@Tatsumaki#8792</span> does many things and is to be configured yet.
+  Commands for <span class="trustedbot">@Tatsumaki#8792</span> have `?` as prefix. Post <span class="codeblock">?help</span> (in the <span class="channel">#bot-playground</span> please) to get a list.
+</li>
+
+</ul>
   
 
