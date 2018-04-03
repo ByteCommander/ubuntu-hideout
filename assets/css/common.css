@@ -1,0 +1,26 @@
+.container {
+  max-width: 900px;
+}
+
+header {
+  .container {
+    nav {
+      display: flex;
+      flex-flow: row wrap;
+      
+      .btn:not(:first-child) {
+        margin-left: 1em;
+      }
+      span {
+        flex: 1 0 auto;
+      }
+    }
+  }
+}
+
+footer {
+//  @extend header;
+  border-bottom: none;
+  border-top: 1px dashed #b5e853;
+}
+
