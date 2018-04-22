@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [[ "$0" = "$BASH_SOURCE" ]] ; then
+    echo "This script provides the environment variable JEKYLL_GITHUB_TOKEN."
+    echo "It must be sourced, not executed, to have effect!"
+    echo "Use:   source $0"
+    chmod -x "$0"
+    exit 1
+fi
+
+# This script stores and provides your GitHub "Personal Access Token".
+# You can create one from https://github.com/settings/tokens .
+# To grant access to public data only (which should be enough, unless your
+# Jekyll repository is private), select NO scope for your token there.
+
+# Copy or rename this file to 'github-token.sh' and
+# insert your GitHub token between the "" quotes below:
+export JEKYLL_GITHUB_TOKEN=""
+
