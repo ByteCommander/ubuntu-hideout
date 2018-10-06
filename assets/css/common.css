@@ -7,7 +7,7 @@ header {
     nav {
       display: flex;
       flex-flow: row wrap;
-      
+
       .btn:not(:first-child) {
         margin-left: 1em;
       }
@@ -26,7 +26,7 @@ footer {
 
 
 .administrator {
-color: #ad1457;
+color: #11806a; //#ad1457;
 font-weight: bold;
 }
 
@@ -88,5 +88,3 @@ font-weight: bold;
   display: block;
   padding: 20px;
 }
-
-
