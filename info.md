@@ -4,35 +4,92 @@
 
 ## Room overview
 
+### Information
 <ul>
 
-<li><span class="channel"> #welcome </span> is the first room you see when you join our server. In here, you simply get a welcome message by our bot Mee6. That's it. This channel is not writable for normal users.
+<li><span class="channel"> #welcome </span>
+is the first room you see when you join our server. In here, you simply get a welcome message by our bot Mee6. That's it. This channel is not writable for normal users.
 </li>
 
-<li><span class="channel"> #help-and-rules</span> is where you go if you want more information about our rooms, roles, permissions and rules. In case you don't find what you were looking for here, feel free to ask any other community member, especially the <span class="moderator">moderators</span> and <span class="administrator">admins</span>  will be happy to help you. This channel is also not writable for normal users.
+<li><span class="channel"> #help-and-rules</span>
+is where you go if you want more information about our rooms, roles, permissions and rules. In case you don't find what you were looking for here, feel free to ask any other community member, especially the <span class="moderator">moderators</span> and <span class="administrator">admins</span>  will be happy to help you. This channel is also not writable for normal users.
 </li>
 
-<li><span class="channel"> #the-orange-room</span> is our first general chat room. Its topic is to be off-topic, so you are encouraged to discuss whatever you like in there (as long as it is not in conflict with our community guidelines).
+<li><span class="channel"> #related-servers</span></li>
+<li><span class="channel"> #news</span></li>
+<li><span class="channel"> #cmd-of-the-day</span></li>
+</ul>
+
+### Regular Chat
+<ul>
+
+<li><span class="channel"> #the-orange-room</span>
+is our first general chat room. Its topic is to be off-topic, so you are encouraged to discuss whatever you like in there (as long as it is not in conflict with our community guidelines).
 </li>
 
-<li><span class="channel"> #ubuntu-support</span> is our second general chat room. As the name already suggests, we'd like to keep it focused on Ubuntu and related topics.
+<li><span class="channel"> #ubuntu-help</span>
+is our second general chat room. As the name already suggests, we'd like to keep it focused on Ubuntu and related topics.
 </li>
 
-<li><span class="channel"> #coding-cave</span> is for extended discussion of programming such as Python, C++, SQL or whatever language you like.
+<li><span class="channel"> #other-help</span>
 </li>
 
-<li><span class="channel"> #bot-playground</span> is a "fun channel" where you can play with our resident chat bots and try their features without upsetting anyone. Strong usage of bot commands in other rooms than that one is discouraged though.
+<li><span class="channel"> #gaming-dungeon</span>
 </li>
 
-<li><span class="channel"> #meta</span> is a hidden channel for which you need the <span class="active"> active</span> role (see the section about roles and permissions) to view it and post there. It serves as a place to exchange any kind of feedback about this Discord server, like proposals, feature requests, questions, criticism, etc.
+<li><span class="channel"> #coding-cave</span>
+is for extended discussion of programming such as Python, C++, SQL or whatever language you like.
 </li>
 
-<li><span class="channel"> #ask-ubuntu-lounge</span> is another hidden channel that is reserved for members of the <span class="askubuntu">Ask Ubuntu</span> community only. To request access to this room, you must verify that you have an Ask Ubuntu account and partitcipate actively in their chat room.
+<li><span class="channel"> #bot-playground</span>
+is a "fun channel" where you can play with our resident chat bots and try their features without upsetting anyone. Strong usage of bot commands in other rooms than that one is discouraged though.
+</li>
+
+<li><span class="channel"> #meta</span>
+is a hidden channel for which you need the <span class="active"> active</span> role (see the section about roles and permissions) to view it and post there. It serves as a place to exchange any kind of feedback about this Discord server, like proposals, feature requests, questions, criticism, etc.
+</li>
+
+<li><span class="channel"> #ask-ubuntu-lounge</span>
+is another hidden channel that is reserved for members of the <span class="askubuntu">Ask Ubuntu</span> community only. To request access to this room, you must verify that you have an Ask Ubuntu account and partitcipate actively in their chat room.
+</li>
+
+</ul>
+
+### Just for fun
+<ul>
+
+<li><span class="channel"> multimedia-box</span>
+</li>
+
+<li><span class="channel"> showroom</span>
+</li>
+
+<li><span class="channel"> bot-playground</span>
 </li>
 
 </ul>
 
 
+### Moderation
+<ul>
+
+<li><span class="channel"> #user-feedback</span>
+is our first general chat room. Its topic is to be off-topic, so you are encouraged to discuss whatever you like in there (as long as it is not in conflict with our community guidelines).
+</li>
+</ul>
+
+
+### Voice Chat/ Music Player
+
+<ul>
+<li><span class="channel"> music-player-control</span>
+</li>
+<li><span class="channel"> music lounge</span>
+</li>
+<li><span class="channel"> water cooler</span>
+</li>
+
+</ul>
 
 ## Roles and permissions
 
@@ -87,5 +144,3 @@
 </li>
 
 </ul>
-  
-
