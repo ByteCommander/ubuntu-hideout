@@ -5,7 +5,8 @@ title: Ubuntu Hideout
 description: The Ubuntu Hideout website!
 #email:
 #show_downloads: true
-#baseurl: https://ubuntu-hideout.js.org/
+baseurl: ''
+  #https://ubuntu-hideout.js.org/
 timezone: Europe/London
 
 defaults:
