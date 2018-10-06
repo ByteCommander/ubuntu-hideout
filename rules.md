@@ -1,5 +1,5 @@
 ---
-
+permalink: rules
 ---
 
 # The Rules
