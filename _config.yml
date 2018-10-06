@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-exclude: ['_site/','Gemfile','Gemfile.lock','build.sh','host']
+exclude: ['_site/','Gemfile','Gemfile.lock','build.sh','host','README.md']
 
 title: Ubuntu Hideout
 description: The Ubuntu Hideout website!
