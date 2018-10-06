@@ -1,2 +1,3 @@
 #! /bin/bash
-bundle exec jekyll serve --host 0.0.0.0 --port 4000
+jekyll build --strict_front_matter  ;
+jekyll serve --livereload --host 0.0.0.0 --port 4000
