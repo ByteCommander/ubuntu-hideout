@@ -1,0 +1,21 @@
+# https://dubsman.gitlab.io/posts/gitlab-jekyll-npm.html
+# https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#gitlab-ci
+# https://about.gitlab.com/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/#build-any-ssg-site-with-gitlab-pages
+# https://www.redpill-linpro.com/sysadvent/2016/12/03/jekyll-gitlab-ci.html
+
+image: ruby:latest
+
+variables:
+  JEKYLL_ENV: production
+
+pages:
+  stage: deploy
+  script:
+  - bundle install
+  - bundle exec jekyll build -d public
+
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

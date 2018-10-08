@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{'/assets/css/common.css' | relative_url }}">
 
 {% seo %}
   </head>
@@ -15,7 +16,7 @@
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        
+
         <nav>
           <a href="{{ "/" | relative_url }}" class="btn">Home</a>
           <a href="{{ "/about" | relative_url }}" class="btn">About Us</a>
@@ -38,10 +39,10 @@
         {{ content }}
       </section>
     </div>
-    
+
     <footer>
       <div class="container">
-        <span>© 2017 by ByteCommander</span>
+        <span>© 2018 by ByteCommander</span>
         <span>
           <a href="https://js.org" target="_blank" title="JS.ORG | JavaScript Community">
           <img src="https://logo.js.org/bright_horz.png" width="102" alt="JS.ORG Logo"/></a>

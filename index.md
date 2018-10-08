@@ -1,3 +1,7 @@
+---
+permalink: index
+---
+
 Looking for a comfortable place to get help with any Ubuntu-related topic, or just have a nice chat with some friendly people?
 
 ### [Come visit our Ubuntu-Hideout Discord server!](https://discord.gg/jcwJEJH)

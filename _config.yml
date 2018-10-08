@@ -1,1 +1,17 @@
 theme: jekyll-theme-hacker
+exclude: ['_site/','Gemfile','Gemfile.lock','build.sh','host','README.md']
+
+title: Ubuntu Hideout
+description: The Ubuntu Hideout website!
+#email:
+#show_downloads: true
+baseurl: ''
+  #https://ubuntu-hideout.js.org/
+timezone: Europe/London
+
+defaults:
+  -
+    scope:
+      path: "" # empty string =  all files in the project
+    values:
+      layout: "default"
