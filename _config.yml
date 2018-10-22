@@ -1,4 +1,9 @@
 theme: jekyll-theme-hacker
+exclude: ["_site/", "README*", "Gemfile*", "vendor/"]
+
+title: Ubuntu Hideout
+description: Website for the Ubuntu-Hideout Discord chat server
 
 redirect_domain: https://ubuntuhideout.com
+redirect_seconds: 10
 

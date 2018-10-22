@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+{% capture redirect_url %}{{ site.redirect_domain }}{{ page.redirect_path | default: page.url }}{% endcapture %}
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -7,13 +8,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="refresh" content="5;url={{ site.redirect_domain | append: page.url }}" />
-    <link rel="canonical" href="{{ site.redirect_domain | append: page.url }}"/>
+    <meta http-equiv="refresh" content="{{ site.redirect_seconds }};url={{ redirect_url }}" />
+    <link rel="canonical" href="{{ redirect_url }}"/>
 
     <script>
       setTimeout(function() {
-        location='{{ site.redirect_domain | append: page.url }}';
-      }, 5000);
+        location='{{ redirect_url }}';
+      }, {{ site.redirect_seconds | times: 1000 }});
     </script>
 {% seo %}
   </head>
@@ -31,8 +32,8 @@
     
       <h1>We moved this site to our own domain</h1>
       <p>This domain will be shut down soon.</p>
-      <p>You will be redirected to our new site at {{ site.redirect_domain }} in 5 seconds.</p>
-      <p><a href="{{ site.redirect_domain | append: page.url }}">Click here if you are not redirected automatically.</a></p>
+      <p>You will be redirected to our new site at <b>{{ site.redirect_domain }}</b> in {{ site.redirect_seconds }} seconds.</p>
+      <p><a href="{{ redirect_url }}">Click here if you are not redirected automatically.</a></p>
 
     </div>
     
