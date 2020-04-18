@@ -5,5 +5,5 @@ title: Ubuntu Hideout
 description: Website for the Ubuntu-Hideout Discord chat server
 
 redirect_domain: https://ubuntuhideout.com
-redirect_seconds: 10
+redirect_seconds: 0
 
